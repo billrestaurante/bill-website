@@ -1,0 +1,11 @@
+markdown: kramdown
+
+### Site info:
+baseurl: /bill-website
+author: Frederico Machado
+title: Bill Bar e Restaurante
+email: ""
+description: "Bill Bar e Restaurante"
+
+### App info:
+exclude: ['README.md', 'Gemfile.lock', 'vendor']
