@@ -1,4 +1,5 @@
 @media only screen and (min-width:620px){
+  .mobile { display: none; }
   .navegation-link-content {
     background: #1B3D62;
     display: inline-block;
@@ -44,4 +45,16 @@
     line-height: 28px;
     letter-spacing: 1px;
   }
+  .footer-content {
+    border: 0;
+    text-align: left;
+  }
+  .footer-infos {
+    border-top: 2px solid;
+    display: inline-block;
+    padding-top: 15px;
+  }
+  .footer-infos h4 { margin: 0;}
+  .footer-infos p { margin: 10px 0;}
+  .footer-ic-farol { display: inline-block; }
 }
