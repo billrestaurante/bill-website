@@ -1,0 +1,111 @@
+{% include head.html %}
+  <body>
+    <div class="container">
+      <header class="site-header bg-landing-top" role="banner">
+        <div class="header">
+          <a href="#" class="icon ic-menu menu-hamburguer"></a>
+          <div class="header-navegation navegation-landing">
+            <a href="{{site.baseurl}}/" class="header-logo logo-white logo-white-landing"></a>
+            <div class="navegation-link-content">
+              <a class="navegation-link text-white" href="{{site.baseurl}}/">Home</a>
+              <a class="navegation-link text-white" href="#">Fotos</a>
+              <a class="navegation-link text-white" href="{{site.baseurl}}/">
+                Cardápio
+              </a>
+              <a class="navegation-link text-white" href="{{site.baseurl}}/blog">Contato</a>
+            </div>
+          </div>
+          <div class="header-content">
+            <h2 class="header-title">
+              O Sabor
+            </h2>
+            <h2 class="header-title">
+              do Mar
+            </h2>
+          </div>
+        </div>
+      </header>
+      <section>
+          <h1 class="bill-title">
+            <span class="bill-title-name">Bill</span>
+            Bar e Restaurante
+          </h1>
+          <p>
+            {{ content }}
+            O Bill está em funcionamento desde 2000, e já é um dos mais tradicionais restaurantes de florianópolis e o mais procurado da praia do forte. Focado manter a tradição da ilha da magia, com seu cardápio especializado de frutos do mar de um tempero ilhéu único.
+          </p>
+      </section>
+      <section class="infos-container">
+        <ul class="infos">
+          <li class="infos-item">
+            <div class="infos-image icon ic-bar"></div>
+            <div class="infos-description">
+              <h4 class="infos-description-title infos-title-bordered">
+                Bar
+              </h4>
+              <p>
+                Petiscos, drinks, acompanhamentos. Momentos agradáveis
+              </p>
+            </div>
+          </li>
+          <li class="infos-item">
+            <div class="infos-image icon ic-restaurant"></div>
+            <div class="infos-description">
+              <h4 class="infos-description-title infos-title-bordered">
+                Restaurante
+              </h4>
+              <p>
+                Especializado em frutos do mar, sempre frescos. Com vista para o mar
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="infos infos-business-hours">
+          <h4 class="">
+            Horário de funcionamento
+          </h4>
+          Terça a Domingo, das 10h às 22h
+        </div>
+        <div class=" infos infos-contact-booking">
+          <h4 class="">
+            Contato e Reservas
+          </h4>
+          <a href="tel:4832664100">
+             48 - 3266-4100, <small>Clique para ligar</small>
+          </a>
+          <br><br>
+          <a href="mailto:bill@restaurantedobill.com.br">
+            bill@restaurantedobill.com.br
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div class="m-view-of-the-sea"></div>
+
+    <div class="container">
+      <section class="midia centered-item">
+        <h4>
+          Recomendado pelo tripadvisor
+        </h4>
+        <div id="TA_selfserveprop314" class="TA_selfserveprop">
+          <ul id="J4N6cMYNY3m" class="TA_links bVM0NOFb">
+            <li id="lm8xAIOaow1" class="BWYQLm0z">
+              <a target="_blank" href="https://www.tripadvisor.com.br/"><img src="https://www.tripadvisor.com.br/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
+            </li>
+          </ul>
+        </div>
+        <p class="margin-top-bottom-item">
+          <a class="btn" href="#">Confira nosso cardápio</a>
+        </p>
+        <p>
+          <div class="icon ic-fort"></div>
+        </p>
+      </section>
+      {% include footer.html %}
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/js/main.js"></script>
+    <script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=314&amp;locationId=7864643&amp;lang=pt&amp;rating=true&amp;nreviews=5&amp;writereviewlink=false&amp;popIdx=false&amp;iswide=false&amp;border=false&amp;display_version=2"></script>
+  </body>
+</html>

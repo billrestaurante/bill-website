@@ -1,0 +1,128 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container { padding: 10px 20px; }
+
+/* #content */
+header,
+section,
+footer {
+  width: 100%;
+  position: relative;
+}
+
+/* #header */
+.header,
+.header-pages-content {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+/* #Content */
+.page-content {
+  max-width: 1120px;
+  margin: 100px auto 0 auto;
+  position: relative;
+  vertical-align: top;
+}
+
+/* #Pages */
+.header-content { display: none; }
+#CDSWIDSSP { margin: 0 auto !important; }
+
+/* #Modules - infos  */
+.infos {
+  padding: 32px 50px;
+  margin: 20px 0;
+  border: 2px solid #1B3D62;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px;
+}
+.infos-item {
+  display: block;
+  margin: 0 0 10px 0;
+}
+.infos-description {
+  display: inline-block;
+  width: 70%;
+  margin-left: 20px;
+  vertical-align: top;
+}
+
+/* #Grid */
+.grid {
+  width: 100%;
+}
+.grid-2-col {
+  width: 45%;
+  margin: 50px 0;
+  padding: 0 20px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.grid-2-col img {
+  width: 80%;
+  padding-left: 50px;
+}
+
+/* #flex-content */
+.flex-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: flex-start;
+}
+.flex-item {
+  flex-grow: 1;
+  flex-basis:1px;
+  line-height: 28px;
+}
+.footer .flex-item {
+  text-align: center;
+}
+
+/* #footer */
+.footer {
+
+}
+.footer .logo-white {
+  margin-top: 0 !important;
+}
+.footer-content {
+  border-top: 2px solid #1B3D62;
+  border-bottom: 2px solid #1B3D62;
+  padding: 40px 20px 40px 20px;
+  text-align: center;
+  margin: 40px 20px 40px 20px;
+}
+.footer-headline {
+  font-size: 24px;
+  font-weight: normal;
+}
+.footer-navegation-content {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px dotted;
+}
+.footer-navegation-item {
+  text-decoration: none;
+  padding: 0 10px 0 0;
+  line-height: 1.5;
+}
+.footer-navegation-item:hover {
+  text-decoration: underline;
+}

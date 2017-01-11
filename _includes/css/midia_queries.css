@@ -1,0 +1,47 @@
+@media only screen and (min-width:620px){
+  .navegation-link-content {
+    background: #1B3D62;
+    display: inline-block;
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+            border-radius: 50px;
+  }
+  .navegation-landing .navegation-link {
+    color: #fff;
+    display: inline-block;
+    font-weight: 300;
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 10px;
+  }
+  .header-navegation {
+    display: inline-block;
+  }
+  .menu-hamburguer { display: none; }
+  .text-white { color: #fff !important; }
+
+  /* Landing page */
+  .bg-landing-top {
+    /*background: url("{{site.baseurl}}/img/bg_landing_top.jpg") no-repeat;*/
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    /*box-shadow: -25px -25px 45px #BEBEBE;*/
+  }
+  .header-title {
+    color: #fff;
+    font-size: 92px;
+    letter-spacing: -2px;
+  }
+  .header-sub-title {
+    color: #fff;
+    max-width: 52%;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+  }
+}
