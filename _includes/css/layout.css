@@ -73,26 +73,9 @@ footer {
   display: inline-block;
   vertical-align: top;
 }
-
 .grid-2-col img {
   width: 80%;
   padding-left: 50px;
-}
-
-/* #flex-content */
-.flex-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-items: flex-start;
-}
-.flex-item {
-  flex-grow: 1;
-  flex-basis:1px;
-  line-height: 28px;
-}
-.footer .flex-item {
-  text-align: center;
 }
 
 /* #footer */
@@ -126,3 +109,4 @@ footer {
 .footer-navegation-item:hover {
   text-decoration: underline;
 }
+.icon.footer-ic-farol { display: none; }

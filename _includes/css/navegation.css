@@ -33,9 +33,9 @@ a:hover {
 /* #Buttons */
 a.btn,
 .btn {
-  font-size: .9em;
+  font-size: 1em;
   background: #1B3D62;
-  padding: 10px 20px;
+  padding: 20px 40px;
   border: 0;
   color: #fff;
   text-transform: uppercase;
@@ -52,7 +52,7 @@ a.btn,
 }
 a.btn:hover,
 .btn:hover {
-  background: #fff;
+  background: #A4B1C0;
   color: #1B3D62;
 }
 .go-top {
