@@ -30,12 +30,12 @@ figure, time { margin:0; padding:0; }
 /* #Images */
 .logo {
   background: url("{{site.baseurl}}/img/logo.png") no-repeat;
-  background: url("{{site.baseurl}}/img/logo.svg") no-repeat;
+  background-size: 100%;
   margin-top: 30px;
-  width: 327px;
-  height: 44px;
-  display: inline-block;
-  position: relative;
+  width: 250px;
+  height: 150px;
+  display: block;
+  margin: 20px auto;
 }
 .m-view-of-the-sea {
   background: url("{{site.baseurl}}/img/home-view-of-the-sea.png") no-repeat;

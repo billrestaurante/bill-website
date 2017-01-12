@@ -28,7 +28,8 @@
   .mobile { display: none; }
   .navegation-link-content {
     background: #1B3D62;
-    display: block;
+    display: inline-block;
+    padding: 0 20px;
     -webkit-border-radius: 50px;
        -moz-border-radius: 50px;
             border-radius: 50px;
@@ -45,6 +46,8 @@
   }
   .header-navegation {
     display: block;
+    margin: 0 auto;
+    text-align: center;
   }
   .menu-hamburguer { display: none; }
   .text-white { color: #fff !important; }
@@ -57,13 +60,11 @@
     background-size: cover;
     position: relative;
     display: flex;
-    /*box-shadow: -25px -25px 45px #BEBEBE;*/
   }
   .header-content {
     display: inline-block;
     text-align: center;
     width: 100%;
-    margin-top: 5%;
   }
   .header-title {
     color: #fff;
