@@ -38,6 +38,14 @@ footer {
 }
 
 /* #Pages */
+.page-title {
+  text-align: center;
+  font-size: 82px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
 .header-content { display: none; }
 #CDSWIDSSP { margin: 0 auto !important; }
 
