@@ -26,6 +26,12 @@ figure, time { margin:0; padding:0; }
 .ic-restaurant { background-position: 0 -328px; }
 .ic-bar { background-position: 0 -405px; }
 .ic-contact {display: none;}
+.ic-notifications {
+  background-position: 5px -596px;
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
 .ic-photo {
   background-position: 5px -196px;
   width: 70px;
