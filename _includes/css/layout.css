@@ -38,16 +38,18 @@ footer {
 }
 
 /* #Pages */
-.page-title {
-  text-align: center;
-  font-size: 82px;
-  margin: 40px 0 60px 0;
-  padding: 0;
-  line-height: 1;
+.tel-btn-right {
+  text-align: right;
+  display: block;
+  margin: 90px 0 40px 0;
 }
-
+.title-page-container {
+  text-align: center;
+}
 .header-content { display: none; }
-#CDSWIDSSP { margin: 0 auto !important; }
+#CDSWIDSSP { margin: 0 auto !important;}
+#g2X6dCxEtxW {display: none !important;}
+.desktop {display: none !important;}
 
 /* #Modules - infos  */
 .infos {

@@ -4,6 +4,16 @@
 .margin-top-bottom-item-duble {margin: 80px 0;}
 img { width: 100%; }
 figure, time { margin:0; padding:0; }
+.thumb {
+  width: calc(95% / 2);
+  margin: 2px;
+  -webkit-transition: all 0.5s ease;
+		 -moz-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+}
+.thumb:hover {
+  opacity: 0.5;
+}
 /* #Images */
 .icon {
   background: url("{{site.baseurl}}/img/sprite.png") no-repeat;
@@ -15,6 +25,15 @@ figure, time { margin:0; padding:0; }
 }
 .ic-restaurant { background-position: 0 -328px; }
 .ic-bar { background-position: 0 -405px; }
+.ic-contact {display: none;}
+.ic-photo {
+  background-position: 5px -196px;
+  width: 70px;
+}
+.ic-video {
+  background-position: 5px -255px;
+  width: 70px;
+}
 .ic-farol {
   background-position: 0 0;
   width: 100px;

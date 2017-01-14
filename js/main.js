@@ -5,9 +5,9 @@ $(document).ready(function(){
   });
 
   //microinteractions
-  window.sr = ScrollReveal();
-  sr.reveal('.section-about', { duration: 1000 });
-  sr.reveal('.home-middle', { duration: 2000 });
+  // window.sr = ScrollReveal();
+  // sr.reveal('.section-about', { duration: 1000 });
+  // sr.reveal('.home-middle', { duration: 2000 });
 
   //scroll to top show
   $(document).scroll(function(){

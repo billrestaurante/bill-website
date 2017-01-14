@@ -5,6 +5,8 @@
 }
 
 @media only screen and (min-width:840px){
+  .desktop {display: block !important;}
+  #g2X6dCxEtxW {display: block !important;}
   .infos-item {
     display: inline-block;
     width: 48%;
@@ -30,6 +32,7 @@
   }
 }
 @media only screen and (min-width:720px){
+  .thumb { width: 180px; }
   .container { padding: 10px 10%; }
   .mobile { display: none; }
   .navegation-link-content {
