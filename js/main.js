@@ -33,4 +33,9 @@ $(document).ready(function(){
       });
   });
 
+  setTimeout(function(){
+    console.log("carregou!");
+    $("#TA_restaurantWidgetGreen988").show();
+  }, 3000);
+
 });//wrapper end
