@@ -44,7 +44,7 @@ $(document).ready(function(){
   $( window ).load(function() {
     if ($.cookie('avisos_bill')) {
     } else {
-      $('a.open-popup-infos').trigger('click');  
+      $('a.open-popup-infos').trigger('click');
       $.cookie('avisos_bill', 'foo', { expires: 1 });
     }
   });

@@ -2,11 +2,14 @@
   .navegation-landing .navegation-link {
     background: #fff;
   }
+  .tel-btn-right {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width:840px){
   .desktop {display: block !important;}
-  #g2X6dCxEtxW {display: block !important;}
+  #TA_restaurantWidgetGreen988 {display: block !important;}
   .infos-item {
     display: inline-block;
     width: 48%;
@@ -61,6 +64,11 @@
   }
   .menu-hamburguer { display: none; }
   .text-white { color: #fff !important; }
+
+  /* Cardápio */
+  .menu-item h3 {
+    font-size: 32px;
+  }
 
   /* Landing page */
   .bg-landing-top {

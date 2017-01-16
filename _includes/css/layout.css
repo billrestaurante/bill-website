@@ -48,7 +48,7 @@ footer {
 }
 .header-content { display: none; }
 #CDSWIDSSP { margin: 0 auto !important;}
-#g2X6dCxEtxW {display: none !important;}
+#TA_restaurantWidgetGreen988 {display: none !important;}
 .desktop {display: none !important;}
 
 /* #Modules - infos  */
@@ -70,6 +70,10 @@ footer {
   margin-left: 20px;
   vertical-align: top;
 }
+.menu-bar {
+  margin-top: 100px;
+  display: block;
+}
 
 /* #Grid */
 .grid {
@@ -86,6 +90,16 @@ footer {
 .grid-2-col img {
   width: 80%;
   padding-left: 50px;
+}
+.cardapio-container .menu-item {
+  padding: 10px 20px 20px 20px;
+}
+.cardapio-container ul li {
+  list-style: none;
+  line-height: 1.8;
+}
+.cardapio-container .item-b {
+  background: #F5F8FB;
 }
 
 /* #footer */
