@@ -37,21 +37,4 @@ $(document).ready(function(){
   setTimeout(function(){
     $("#TA_restaurantWidgetGreen988").show();
   }, 4000);
-
-  // Ayto Open PopUp - this function show pop up on Bill landing page
-  // Comment this line until END POPUP if you don't want to show the popUp on Landing page
-  // Quadro de Avisos is on _layout > landing.html
-  $( window ).load(function() {
-    if ($.cookie('avisos_bill')) {
-    } else {
-      $('a.open-popup-infos').trigger('click');
-      $.cookie('avisos_bill', 'foo', { expires: 1 });
-    }
-  });
-  $('.open-popup-infos').magnificPopup({
-    type:'inline',
-    midClick: false,
-  });
-  // END POPUP
-
 });//wrapper end

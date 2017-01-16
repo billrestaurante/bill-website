@@ -139,5 +139,23 @@
     <script src="{{site.baseurl}}/js/jquery.cookie.js"></script>
     <script src="{{site.baseurl}}/js/main.js"></script>
     <script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=314&amp;locationId=7864643&amp;lang=pt&amp;rating=true&amp;nreviews=5&amp;writereviewlink=false&amp;popIdx=false&amp;iswide=false&amp;border=false&amp;display_version=2"></script>
+
+    <script type="text/javascript">
+      // Ayto Open PopUp - this function show pop up on Bill landing page
+      // Comment this line until END POPUP if you don't want to show the popUp on Landing page
+      // Quadro de Avisos is on _layout > landing.html
+      $( window ).load(function() {
+        if ($.cookie('avisos_bill')) {
+        } else {
+          $('a.open-popup-infos').trigger('click');
+          $.cookie('avisos_bill', 'foo', { expires: 1 });
+        }
+      });
+      $('.open-popup-infos').magnificPopup({
+        type:'inline',
+        midClick: false,
+      });
+      // END POPUP
+    </script>
   </body>
 </html>
