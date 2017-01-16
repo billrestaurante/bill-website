@@ -1,5 +1,15 @@
+{% include css/magnific-popup.css %}
 #TA_restaurantWidgetGreen988 {
   display: none;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width:auto;
+  max-width: 500px;
+  margin: 20px auto;
 }
 .midia-ta,
 .home-middle-text { display: none; }
