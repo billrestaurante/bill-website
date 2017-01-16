@@ -9,7 +9,6 @@
 
 @media only screen and (min-width:840px){
   .desktop {display: block !important;}
-  #TA_restaurantWidgetGreen988 {display: block !important;}
   .infos-item {
     display: inline-block;
     width: 48%;

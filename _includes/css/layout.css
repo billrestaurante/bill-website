@@ -46,10 +46,13 @@ footer {
 .title-page-container {
   text-align: center;
 }
-.header-content { display: none; }
 #CDSWIDSSP { margin: 0 auto !important;}
-#TA_restaurantWidgetGreen988 {display: none !important;}
-.desktop {display: none !important;}
+.header-content,
+.desktop,
+#TA_restaurantWidgetGreen988 {
+  display: none;
+}
+
 
 /* #Modules - infos  */
 .infos {
