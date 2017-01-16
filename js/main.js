@@ -42,7 +42,11 @@ $(document).ready(function(){
   // Comment this line until END POPUP if you don't want to show the popUp on Landing page
   // Quadro de Avisos is on _layout > landing.html
   $( window ).load(function() {
-    $('a.open-popup-infos').trigger('click');
+    if ($.cookie('avisos_bill')) {
+    } else {
+      $('a.open-popup-infos').trigger('click');  
+      $.cookie('avisos_bill', 'foo', { expires: 1 });
+    }
   });
   $('.open-popup-infos').magnificPopup({
     type:'inline',
