@@ -16,8 +16,8 @@ figure, time { margin:0; padding:0; }
 }
 /* #Images */
 .icon {
-  background: url("{{site.baseurl}}/img/sprite.png") no-repeat;
-  background: url("{{site.baseurl}}/img/sprite.svg") no-repeat;
+  background: url("/img/sprite.png") no-repeat;
+  background: url("/img/sprite.svg") no-repeat;
   width: 40px;
   height: 60px;
   display: inline-block;
@@ -54,7 +54,7 @@ figure, time { margin:0; padding:0; }
 }
 /* #Images */
 .logo {
-  background: url("{{site.baseurl}}/img/logo.png") no-repeat;
+  background: url("/img/logo.png") no-repeat;
   background-size: 100%;
   margin-top: 30px;
   width: 250px;
@@ -63,7 +63,7 @@ figure, time { margin:0; padding:0; }
   margin: 0 auto;
 }
 .m-view-of-the-sea {
-  background: url("{{site.baseurl}}/img/home-view-of-the-sea.png") no-repeat;
+  background: url("/img/home-view-of-the-sea.png") no-repeat;
   margin: 40px 0;
   width: 100%;
   height: 290px;
@@ -71,21 +71,21 @@ figure, time { margin:0; padding:0; }
   position: relative;
 }
 .bg-contact-page {
-  background: url("{{site.baseurl}}/img/contact.png") no-repeat;
+  background: url("/img/contact.png") no-repeat;
   width: 100%;
   height: 350px;
   background-size: cover;
   position: relative;
 }
 .bg-cardapio-page {
-  background: url("{{site.baseurl}}/img/cardapio.png") no-repeat;
+  background: url("/img/cardapio.png") no-repeat;
   width: 100%;
   height: 350px;
   background-size: cover;
   position: relative;
 }
 .bg-fotos-page {
-  background: url("{{site.baseurl}}/img/fotos.png") no-repeat;
+  background: url("/img/fotos.png") no-repeat;
   width: 100%;
   height: 350px;
   background-size: cover;

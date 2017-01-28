@@ -79,7 +79,7 @@
 
   /* Landing page */
   .bg-landing-top {
-    background: url("{{site.baseurl}}/img/home_bg_header.png") no-repeat;
+    background: url("/img/home_bg_header.png") no-repeat;
     width: 100%;
     min-height: 100%;
     background-size: cover;
