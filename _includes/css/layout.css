@@ -38,12 +38,25 @@ footer {
 }
 
 /* #Pages */
-.header-content { display: none; }
-#CDSWIDSSP { margin: 0 auto !important; }
+.tel-btn-right {
+  text-align: right;
+  display: block;
+  margin: 90px 0 40px 0;
+}
+.title-page-container {
+  text-align: center;
+}
+#CDSWIDSSP { margin: 0 auto !important;}
+.header-content,
+.desktop,
+#TA_restaurantWidgetGreen988 {
+  display: none;
+}
+
 
 /* #Modules - infos  */
 .infos {
-  padding: 32px 50px;
+  padding: 32px 32px;
   margin: 20px 0;
   border: 2px solid #1B3D62;
   -webkit-border-radius: 20px;
@@ -60,6 +73,10 @@ footer {
   margin-left: 20px;
   vertical-align: top;
 }
+.menu-bar {
+  margin-top: 100px;
+  display: block;
+}
 
 /* #Grid */
 .grid {
@@ -73,26 +90,22 @@ footer {
   display: inline-block;
   vertical-align: top;
 }
-
 .grid-2-col img {
   width: 80%;
   padding-left: 50px;
 }
-
-/* #flex-content */
-.flex-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-items: flex-start;
+.cardapio-container .menu-item {
+  padding: 10px 20px 20px 20px;
 }
-.flex-item {
-  flex-grow: 1;
-  flex-basis:1px;
-  line-height: 28px;
+.cardapio-container ul li {
+  list-style: none;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  padding: 0;
+  margin-left: -40px;
 }
-.footer .flex-item {
-  text-align: center;
+.cardapio-container .item-b {
+  background: #F5F8FB;
 }
 
 /* #footer */
@@ -126,3 +139,4 @@ footer {
 .footer-navegation-item:hover {
   text-decoration: underline;
 }
+.icon.footer-ic-farol { display: none; }

@@ -1,39 +1,48 @@
 {% include head.html %}
   <body>
-    <div class="container">
-      <header class="site-header bg-landing-top" role="banner">
-        <div class="header">
-          <a href="#" class="icon ic-menu menu-hamburguer"></a>
-          <div class="header-navegation navegation-landing">
-            <a href="{{site.baseurl}}/" class="header-logo logo-white logo-white-landing"></a>
-            <div class="navegation-link-content">
-              <a class="navegation-link text-white" href="{{site.baseurl}}/">Home</a>
-              <a class="navegation-link text-white" href="#">Fotos</a>
-              <a class="navegation-link text-white" href="{{site.baseurl}}/">
-                Cardápio
-              </a>
-              <a class="navegation-link text-white" href="{{site.baseurl}}/blog">Contato</a>
-            </div>
-          </div>
-          <div class="header-content">
-            <h2 class="header-title">
-              O Sabor
-            </h2>
-            <h2 class="header-title">
-              do Mar
-            </h2>
+    <header class="site-header bg-landing-top" role="banner">
+      <div class="header">
+        <a href="#" class="icon ic-menu menu-hamburguer"></a>
+        <div class="header-navegation navegation-landing">
+          <a href="{{site.baseurl}}/" class="logo"></a>
+          <div class="navegation-link-content">
+            <a class="navegation-link text-white" href="{{site.baseurl}}/">Home</a>
+            <a class="navegation-link text-white" href="{{site.baseurl}}/cardapio">
+              Cardápio
+            </a>
+            <a class="navegation-link text-white" href="{{site.baseurl}}/fotos">Fotos</a>
+            <a class="navegation-link text-white" href="{{site.baseurl}}/contato">Contato</a>
           </div>
         </div>
-      </header>
-      <section>
+        <div class="header-content">
+          <h2 class="header-title">
+            O Sabor
+          </h2>
+          <h2 class="header-sub-title">
+            do Mar
+          </h2>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <section class="section-about">
           <h1 class="bill-title">
             <span class="bill-title-name">Bill</span>
             Bar e Restaurante
           </h1>
           <p>
             {{ content }}
-            O Bill está em funcionamento desde 2000, e já é um dos mais tradicionais restaurantes de florianópolis e o mais procurado da praia do forte. Focado manter a tradição da ilha da magia, com seu cardápio especializado de frutos do mar de um tempero ilhéu único.
+            Inaugurado em 02/11/2000, Bill já é um dos mais tradicionais restaurantes de florianópolis e o mais procurado da praia do forte. Mantém a tradição da ilha com seu cardápio especializado em frutos do mar de tempero ilhéu inigualável.
           </p>
+          <br>
+          <div id="TA_restaurantWidgetGreen988" class="midia-ta TA_restaurantWidgetGreen">
+          <ul id="YmulJtSW" class="TA_links kH8gnKE">
+          <li id="l8oE3xq23dX" class="8LvxinesP6">
+          <a target="_blank" href="https://www.tripadvisor.com.br/"><img src="https://www.tripadvisor.com.br/img/cdsi/partner/tripadvisor_logo_117x18-24177-2.png" alt="TripAdvisor"/></a>
+          </li>
+          </ul>
+          </div>
+          <script src="https://www.jscache.com/wejs?wtype=restaurantWidgetGreen&amp;uniq=988&amp;locationId=7864643&amp;icon=knifeAndFork&amp;lang=pt&amp;display_version=2"></script>
       </section>
       <section class="infos-container">
         <ul class="infos">
@@ -44,7 +53,7 @@
                 Bar
               </h4>
               <p>
-                Petiscos, drinks, acompanhamentos. Momentos agradáveis
+                Petiscos, drinks. Momentos agradáveis
               </p>
             </div>
           </li>
@@ -60,31 +69,43 @@
             </div>
           </li>
         </ul>
-        <div class="infos infos-business-hours">
-          <h4 class="">
-            Horário de funcionamento
-          </h4>
-          Terça a Domingo, das 10h às 22h
-        </div>
-        <div class=" infos infos-contact-booking">
-          <h4 class="">
-            Contato e Reservas
-          </h4>
-          <a href="tel:4832664100">
-             48 - 3266-4100, <small>Clique para ligar</small>
-          </a>
-          <br><br>
-          <a href="mailto:bill@restaurantedobill.com.br">
-            bill@restaurantedobill.com.br
-          </a>
+        <div class="flex-content">
+          <div class="infos flex-item infos-business-hours">
+            <h4 class="">
+              Horário de funcionamento
+            </h4>
+            Segunda a Domingo
+            <br>
+            das 10h às 22h
+          </div>
+          <div class=" infos flex-item infos-contact-booking">
+            <h4 class="">
+              Contato e Reservas
+            </h4>
+            <a href="tel:4832664100">
+               48 - 3266-4100, <small>Clique para ligar</small>
+            </a>
+
+          </div>
         </div>
       </section>
     </div>
 
-    <div class="m-view-of-the-sea"></div>
+    <p class="margin-top-bottom-item-duble centered-item">
+      <a class="btn" href="tel:4832664100">Faça sua reserva</a>
+    </p>
+
+    <div class="home-middle">
+      <div class="home-middle-text">
+        <h2 class="header-sub-title-middle">
+          Um delicioso cardápio, uma vista inesquecível
+        </h2>
+      </div>
+      <img src="{{site.baseurl}}/img/home-view-of-the-sea.png" alt="">
+    </div>
 
     <div class="container">
-      <section class="midia centered-item">
+      <section class="midia-bottom centered-item">
         <h4>
           Recomendado pelo tripadvisor
         </h4>
@@ -96,16 +117,44 @@
           </ul>
         </div>
         <p class="margin-top-bottom-item">
-          <a class="btn" href="#">Confira nosso cardápio</a>
+          <a class="btn" href="{{site.baseurl}}/cardapio">Confira o cardápio</a>
         </p>
         <p>
           <div class="icon ic-farol mobile"></div>
         </p>
       </section>
+      <a href="#bill-infos-modal" class="open-popup-infos"></a>
+      <div id="bill-infos-modal" class="white-popup mfp-hide">
+        <h4 class="">
+          <i class="icon ic-notifications"></i>
+          Quadro de avisos
+        </h4>
+      </div>
       {% include footer.html %}
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/js/scrollreveal.min.js"></script>
+    <script src="{{site.baseurl}}/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{site.baseurl}}/js/jquery.cookie.js"></script>
     <script src="{{site.baseurl}}/js/main.js"></script>
     <script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=314&amp;locationId=7864643&amp;lang=pt&amp;rating=true&amp;nreviews=5&amp;writereviewlink=false&amp;popIdx=false&amp;iswide=false&amp;border=false&amp;display_version=2"></script>
+
+    <script type="text/javascript">
+      // Ayto Open PopUp - this function show pop up on Bill landing page
+      // Comment this line until END POPUP if you don't want to show the popUp on Landing page
+      // Quadro de Avisos is on _layout > landing.html
+      // $( window ).load(function() {
+      //   if ($.cookie('avisos_bill')) {
+      //   } else {
+      //     $('a.open-popup-infos').trigger('click');
+      //     $.cookie('avisos_bill', 'foo', { expires: 1 });
+      //   }
+      // });
+      // $('.open-popup-infos').magnificPopup({
+      //   type:'inline',
+      //   midClick: false,
+      // });
+      // END POPUP
+    </script>
   </body>
 </html>

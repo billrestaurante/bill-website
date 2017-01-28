@@ -1,8 +1,19 @@
 /*Helpers*/
 .centered-item {text-align: center;}
 .margin-top-bottom-item {margin: 40px 0;}
+.margin-top-bottom-item-duble {margin: 80px 0;}
 img { width: 100%; }
 figure, time { margin:0; padding:0; }
+.thumb {
+  width: calc(95% / 2);
+  margin: 2px;
+  -webkit-transition: all 0.5s ease;
+		 -moz-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+}
+.thumb:hover {
+  opacity: 0.5;
+}
 /* #Images */
 .icon {
   background: url("{{site.baseurl}}/img/sprite.png") no-repeat;
@@ -14,6 +25,21 @@ figure, time { margin:0; padding:0; }
 }
 .ic-restaurant { background-position: 0 -328px; }
 .ic-bar { background-position: 0 -405px; }
+.ic-contact {display: none;}
+.ic-notifications {
+  background-position: 5px -596px;
+  width: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ic-photo {
+  background-position: 5px -196px;
+  width: 70px;
+}
+.ic-video {
+  background-position: 5px -255px;
+  width: 70px;
+}
 .ic-farol {
   background-position: 0 0;
   width: 100px;
@@ -29,12 +55,12 @@ figure, time { margin:0; padding:0; }
 /* #Images */
 .logo {
   background: url("{{site.baseurl}}/img/logo.png") no-repeat;
-  background: url("{{site.baseurl}}/img/logo.svg") no-repeat;
+  background-size: 100%;
   margin-top: 30px;
-  width: 327px;
-  height: 44px;
-  display: inline-block;
-  position: relative;
+  width: 250px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
 }
 .m-view-of-the-sea {
   background: url("{{site.baseurl}}/img/home-view-of-the-sea.png") no-repeat;
@@ -42,5 +68,26 @@ figure, time { margin:0; padding:0; }
   width: 100%;
   height: 290px;
   display: block;
+  position: relative;
+}
+.bg-contact-page {
+  background: url("{{site.baseurl}}/img/contact.png") no-repeat;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  position: relative;
+}
+.bg-cardapio-page {
+  background: url("{{site.baseurl}}/img/cardapio.png") no-repeat;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  position: relative;
+}
+.bg-fotos-page {
+  background: url("{{site.baseurl}}/img/fotos.png") no-repeat;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
   position: relative;
 }
